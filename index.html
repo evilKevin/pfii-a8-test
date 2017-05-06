@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>MDL Test Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Material Design Lite test page">
+		<meta name="keywords" content="MDL, Material Design Lite">
+		<meta name="author" content="Kyle Smeaton">
+
+    <!-- MDL stuffs -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+	</head>
+
+	<body>
+		<!-- Simple header with fixed tabs. -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+		            mdl-layout--fixed-tabs">
+		  <header class="mdl-layout__header">
+		    <div class="mdl-layout__header-row">
+		      <!-- Title -->
+		      <span class="mdl-layout-title">Title</span>
+		    </div>
+		    <!-- Tabs -->
+		    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+		      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
+		      <a href="#fixed-tab-2" class="mdl-layout__tab">History</a>
+		      <a href="#fixed-tab-3" class="mdl-layout__tab">Keyboard Shortcuts</a>
+					<a href="#fixed-tab-4" class="mdl-layout__tab">Plugins</a>
+		    </div>
+		  </header>
+		  <div class="mdl-layout__drawer">
+		    <span class="mdl-layout-title">Title</span>
+		  </div>
+		  <main class="mdl-layout__content">
+		    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+		      <div class="page-content">This is where the strengths and weaknesses go</div>
+		    </section>
+		    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+		      <div class="page-content">History of NetBeans</div>
+		    </section>
+		    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+		      <div class="page-content">All about keboard shortcuts in NetBeans</div>
+		    </section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-4">
+		      <div class="page-content">Popular plugins for NetBeans</div>
+		    </section>
+		  </main>
+		</div>
+	</body>
+
+</html>
