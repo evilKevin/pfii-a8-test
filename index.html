@@ -22,27 +22,35 @@
 		            mdl-layout--fixed-tabs">
 		  <header class="mdl-layout__header">
 		    <div class="mdl-layout__header-row">
-		      <!-- Title -->
+					<div class="mdl-layout-spacer"></div>
+					<!-- Title -->
 		      <span class="mdl-layout-title">NetBeans IDE</span>
-		    </div>
+					<div class="mdl-layout-spacer"></div>
+				</div>
 		    <!-- Tabs -->
 		    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-		      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Strengths</a>
-		      <a href="#fixed-tab-2" class="mdl-layout__tab">History</a>
-		      <a href="#fixed-tab-3" class="mdl-layout__tab">Shortcuts</a>
-					<a href="#fixed-tab-4" class="mdl-layout__tab">Plugins</a>
+					<a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
+		      <a href="#fixed-tab-2" class="mdl-layout__tab">Strengths</a>
+		      <a href="#fixed-tab-3" class="mdl-layout__tab">History</a>
+		      <a href="#fixed-tab-4" class="mdl-layout__tab">Shortcuts</a>
+					<a href="#fixed-tab-5" class="mdl-layout__tab">Plugins</a>
 		    </div>
 		  </header>
-		  <div class="mdl-layout__drawer">
-		    <span class="mdl-layout-title">About NetBeans</span>
-				<div class="mdl-grid">
-					<div class="mdl-cell mdl-cell--12-col">NetBeans is an integrated development environment (IDE), often used for Java.</div>
-					<div class="mdl-cell mdl-cell--12-col">It's easy to use and popular, with easy-to-learn shortcuts and commands. That makes it a great IDE for Java development!</div>
-					<div class="mdl-cell mdl-cell--12-col">Even so, it's not limited to Java, either. You can download version with support for other languages too.</div>
-				</div>
-			</div>
 		  <main class="mdl-layout__content">
-		    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+				<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+		      <div class="page-content">
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--12-col">
+								<div class="mdl-layout-title">About</div>
+								<hr>
+								<p>
+									NetBeans is an integrated development environment (IDE), often used for Java. It's easy to use and popular, with easy-to-learn shortcuts and commands. That makes it a great IDE for Java development! And it's not limited to Java, either. You can download version with support for other languages too.
+								</p>
+							</div>
+						</div>
+					</div>
+		    </section>
+		    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
 		      <div class="page-content">
 						<div class="mdl-grid">
 							<div class="mdl-cell mdl-cell--8-col">
@@ -68,13 +76,13 @@
 						</div>
 					</div>
 		    </section>
-		    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+		    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
 		      <div class="page-content">History of NetBeans</div>
 		    </section>
-		    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+		    <section class="mdl-layout__tab-panel" id="fixed-tab-4">
 		      <div class="page-content">All about keboard shortcuts in NetBeans</div>
 		    </section>
-				<section class="mdl-layout__tab-panel" id="fixed-tab-4">
+				<section class="mdl-layout__tab-panel" id="fixed-tab-5">
 		      <div class="page-content">Popular plugins for NetBeans</div>
 		    </section>
 		  </main>
