@@ -5,7 +5,7 @@ Programming Fundamentals II Assignment 8 Testing Repository
 - [ ] Add Strengths tab content
 - [ ] Add History tab content
 - [ ] Add more shortcuts and code templates to Shortcuts tab
-- [ ] Add link to source website to Shortcuts tab
+- [x] Add link to source website to Shortcuts tab
 - [ ] Add Plugins tab content
 
 ## Ideas
