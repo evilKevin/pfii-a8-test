@@ -7,6 +7,7 @@ Programming Fundamentals II Assignment 8 Testing Repository
 - [ ] Add more shortcuts and code templates to Shortcuts tab
 - [x] Add link to source website to Shortcuts tab
 - [ ] Add Plugins tab content
+- [ ] Stop text from wrapping under icon on Plugins list
 
 ## Ideas
 - Re-align main title to left side of page? (need to remove space from missing hamburger menu in that case)
