@@ -2,7 +2,11 @@
 Programming Fundamentals II Assignment 8 Testing Repository
 
 ## To-Do
-- [ ] Add content
+- [ ] Add Strengths tab content
+- [ ] Add History tab content
+- [ ] Add more shortcuts and code templates to Shortcuts tab
+- [ ] Add link to source website to Shortcuts tab
+- [ ] Add Plugins tab content
 
 ## Ideas
 - Re-align main title to left side of page? (need to remove space from missing hamburger menu in that case)
