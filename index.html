@@ -2,318 +2,323 @@
 
 <html lang="en">
 
-	<head>
-		<title>NetBeans IDE</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="description" content="Material Design Lite test page">
-		<meta name="keywords" content="MDL, Material Design Lite">
-		<meta name="author" content="Kyle Smeaton">
+<head>
+	<title>NetBeans IDE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Material Design Lite test page">
+	<meta name="keywords" content="MDL, Material Design Lite">
+	<meta name="author" content="Kyle Smeaton">
 
-    <!-- MDL stuffs -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<!-- MDL stuffs -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" />
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-	</head>
+	<style>
+		p {
+			font-size: 1.5em
+		}
 
-	<body>
-		<!-- Simple header with fixed tabs. -->
-		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+		.mdl-layout-title {
+			font-size: 2em;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- Simple header with fixed tabs. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
 		            mdl-layout--fixed-tabs">
-		  <header class="mdl-layout__header">
-		    <div class="mdl-layout__header-row">
-					<div class="mdl-layout-spacer"></div>
-					<!-- Title -->
-		      <span class="mdl-layout-title">NetBeans IDE</span>
-					<div class="mdl-layout-spacer"></div>
-				</div>
-		    <!-- Tabs -->
-		    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-					<a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
-		      <a href="#fixed-tab-2" class="mdl-layout__tab">Pros and Cons</a>
-		      <a href="#fixed-tab-3" class="mdl-layout__tab">History</a>
-		      <a href="#fixed-tab-4" class="mdl-layout__tab">Shortcuts</a>
-					<a href="#fixed-tab-5" class="mdl-layout__tab">Plugins</a>
-		    </div>
-		  </header>
-		  <main class="mdl-layout__content">
-				<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-		      <div class="page-content">
-						<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--7-col">
-								<div class="mdl-layout-title">About NetBeans</div>
-								<hr>
-								<p>
-									NetBeans is the official integrated development environment (IDE) for Java 8. It's popular, with easy-to-learn shortcuts and commands, making it a great IDE for Java development!
-								</p>
-								<p>
-									NetBeans includes a GUI builder for Java SE, making it easy to build graphical interfaces.
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<div class="mdl-layout-spacer"></div>
+				<!-- Title -->
+				<span class="mdl-layout-title">NetBeans IDE</span>
+				<div class="mdl-layout-spacer"></div>
+			</div>
+			<!-- Tabs -->
+			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+				<a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
+				<a href="#fixed-tab-2" class="mdl-layout__tab">Pros and Cons</a>
+				<a href="#fixed-tab-3" class="mdl-layout__tab">History</a>
+				<a href="#fixed-tab-4" class="mdl-layout__tab">Shortcuts</a>
+				<a href="#fixed-tab-5" class="mdl-layout__tab">Plugins</a>
+			</div>
+		</header>
+		<main class="mdl-layout__content">
+			<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--7-col">
+							<div class="mdl-layout-title">About NetBeans</div>
+							<hr>
+							<p>
+								NetBeans is the official integrated development environment (IDE) for Java 8. It's popular, with easy-to-learn shortcuts and commands, making it a great IDE for Java development!
+							</p>
+							<p>
+								NetBeans includes a GUI builder for Java SE, making it easy to build graphical interfaces.
 								<p>
 									It's not limited to Java, either. You can download versions with support for other languages like HTML, JavaScript, and PHP. You can even use it for C/C++ development!
 								</p>
 								<a href="https://netbeans.org/downloads/">Link to Netbeans IDE download page.
 								</a>
-							</div>
-							<!-- end of seven columns -->
-							<div class="mdl-cell mdl-cell--5-col">
-								<div class="mdl-layout-title">Why use an IDE?</div>
-								<hr>
-								<p>
-									Integrated development environments (IDEs) combine text editors with more advanced features, like syntax code highlighting, and the ability to rename files without breaking things (refactoring). IDEs will often also have shortcuts and keyboard combinations to make your life easier (like a command to comment out code, for example). IDEs have debugging tools as well, including in-line checking that highlights bad code, and let you run your code step-by-step.
-								</p>
-								<p>
-									Beyond that, IDEs like NetBeans have a visual file tree, allowing you to see how files are related and what directory they are in. This makes it easy to see if all the needed files are in the right place when it comes time to compile.
-								</p>
-							</div>
-							<!-- end of five columns -->
 						</div>
-						<!-- end of gride -->
+						<!-- end of seven columns -->
+						<div class="mdl-cell mdl-cell--5-col">
+							<div class="mdl-layout-title">Why use an IDE?</div>
+							<hr>
+							<p>
+								Integrated development environments (IDEs) combine text editors with more advanced features, like syntax code highlighting, and the ability to rename files without breaking things (refactoring). IDEs will often also have shortcuts and keyboard combinations
+								to make your life easier (like a command to comment out code, for example). IDEs have debugging tools as well, including in-line checking that highlights bad code, and let you run your code step-by-step.
+							</p>
+							<p>
+								Beyond that, IDEs like NetBeans have a visual file tree, allowing you to see how files are related and what directory they are in. This makes it easy to see if all the needed files are in the right place when it comes time to compile.
+							</p>
+						</div>
+						<!-- end of five columns -->
 					</div>
-		    </section>
-		    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
-		      <div class="page-content">
-						<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--8-col">
-								<div class="mdl-layout-title">Strengths</div>
-								<hr>
-								<p>
-									NetBeans is intuitive and easy to use, even for beginners. One can install and use it right out of the box.  It has an easy to use Swing GUI design tool allowing drag and drop.  It has auto completed code and gives programmers a list of possible code fragments to choose from.  It debugs and gives hints on improving code.
-								</p>
-								<br />
-								<div class="mdl-layout-title">Weaknesses</div>
-								<hr>
-								<p>
-								It needs more memory than lighter IDEs.The advanced tools and features require some training. <br> 
-   								
-								</p>
-							</div>
-							<!-- end of eight columns -->
-							<div class="mdl-cell mdl-cell--4-col">
-								<div class="mdl-layout-title">Comparisons to other IDEs</div>
-								<hr>
-								<p>
-									Most experts say using NetBeans or choosing another IDE, such as Visual Studio or Eclipse, is simply personal preference.  Spend an hour with one or two IDEs to find your personal favorite. 
-								</p>
-							</div>
-							<!-- end of four columns -->
+					<!-- end of gride -->
+				</div>
+			</section>
+			<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--8-col">
+							<div class="mdl-layout-title">Strengths</div>
+							<hr>
+							<p>
+								NetBeans is intuitive and easy to use, even for beginners. One can install and use it right out of the box. It has an easy to use Swing GUI design tool allowing drag and drop. It has auto completed code and gives programmers a list of possible code fragments
+								to choose from. It debugs and gives hints on improving code.
+							</p>
+							<br />
+							<div class="mdl-layout-title">Weaknesses</div>
+							<hr>
+							<p>
+								It needs more memory than lighter IDEs.The advanced tools and features require some training.
+							</p>
 						</div>
-						<!-- end of grid -->
+						<!-- end of eight columns -->
+						<div class="mdl-cell mdl-cell--4-col">
+							<div class="mdl-layout-title">Comparisons to other IDEs</div>
+							<hr>
+							<p>
+								Most experts say using NetBeans or choosing another IDE, such as Visual Studio or Eclipse, is simply personal preference. Spend an hour with one or two IDEs to find your personal favorite.
+							</p>
+						</div>
+						<!-- end of four columns -->
 					</div>
-		    </section>
-		    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-		      <div class="page-content">
-              	<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--8-col">
-								<div class="mdl-layout-title">History</div>
-								<hr>
-								<p>NetBeans began in 1996 as a student project in the Czech Republic.  The project's original name was Xelfi.  After some success a few years later they decided to make it a commercial venture.  NetBeans became the first Java IDE written in Java. In 1999 Sun Microsystems expressed interest and NetBeans became the "flagship" tool for the creators of Java.
-								</p>
-                                
-                                
-                                
-								
-							</div>
+					<!-- end of grid -->
+				</div>
+			</section>
+			<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--6-col">
+							<div class="mdl-layout-title">History</div>
+							<hr>
+							<p>NetBeans began in 1996 as a student project in the Czech Republic. The project's original name was Xelfi. After some success a few years later they decided to make it a commercial venture. NetBeans became the first Java IDE written in Java. In
+								1999 Sun Microsystems expressed interest and NetBeans became the "flagship" tool for the creators of Java.
+							</p>
 						</div>
-              
-              </div>
-             
-              
-		    </section>
-		    <section class="mdl-layout__tab-panel" id="fixed-tab-4">
-		      <div class="page-content">
-						<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--6-col">
-								<div class="mdl-layout-title">Keboard Shortcuts in NetBeans</div>
-								<hr>
-								<p>
-									While there are many keyboard shortcuts in NetBeans, there are a few you will find incredibly useful for Java development.
-								</p>
-								<table class="mdl-data-table mdl-js-data-table">
-									<thead class="mdl-data-table__cell--non-numeric">
-										<tr>
-											<th class="mdl-data-table__cell--non-numeric">Shortcut</th>
-											<th class="mdl-data-table__cell--non-numeric">Result</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric"><code>Alt-Shift-F</code></td>
-											<td class="mdl-data-table__cell--non-numeric">Format Code</td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric"><code>F9</code></td>
-											<td class="mdl-data-table__cell--non-numeric">Compile package/file</td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-/</code></td>
-											<td class="mdl-data-table__cell--non-numeric">Comment/un-comment</td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-E</code></td>
-											<td class="mdl-data-table__cell--non-numeric">Delete current line</td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-Alt-I</code></td>
-											<td class="mdl-data-table__cell--non-numeric">Fix all class imports</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<!-- end of six cells -->
-							<div class="mdl-cell mdl-cell--6-col">
-								<div class="mdl-layout-title">Code Templates in NetBeans</div>
-								<hr>
-								<p>
-									NetBeans also has "code templates," which are short lines that automatically expand to longer structures and code.
-								</p>
-								<table class="mdl-data-table mdl-js-data-table">
-									<thead class="mdl-data-table__cell--non-numeric">
-										<tr>
-											<th class="mdl-data-table__cell--non-numeric">Template</th>
-											<th class="mdl-data-table__cell--non-numeric">Result</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric">sout</td>
-											<td class="mdl-data-table__cell--non-numeric"><code>System.out.println("");</code></td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric">fori</td>
-											<td class="mdl-data-table__cell--non-numeric"><code>for (int i = 0; i < arr.length; i++) {}</code></td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric">iff</td>
-											<td class="mdl-data-table__cell--non-numeric"><code>if(exp) {}</code></td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric">pu</td>
-											<td class="mdl-data-table__cell--non-numeric"><code>public</code></td>
-										</tr>
-										<tr>
-											<td class="mdl-data-table__cell--non-numeric">re</td>
-											<td class="mdl-data-table__cell--non-numeric"><code>return</code></td>
-										</tr>
-								</table>
-							</div>
-							<!-- end of six cells -->
-							<div class="mdl-cell mdl-cell--12-col">
-								<div class="mdl-layout-title">Additional Shortcuts and Code Templates</div>
-								<hr>
-								<ul class="mdl-list">
-									<li class="mdl-list__item">
-										<span class="mdl-list__item-primary-content">
+						<div class="mdl-cell mdl-cell--6-col">
+							<figure>
+								<img src="images/founders.png" height="auto" width="100%" alt="founders of NetBeans" />
+								<figcaption>Founders of NetBeans. From netbeans.org.</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+			<section class="mdl-layout__tab-panel" id="fixed-tab-4">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--6-col">
+							<div class="mdl-layout-title">Keboard Shortcuts in NetBeans</div>
+							<hr>
+							<p>
+								While there are many keyboard shortcuts in NetBeans, there are a few you will find incredibly useful for Java development.
+							</p>
+							<table class="mdl-data-table mdl-js-data-table">
+								<thead class="mdl-data-table__cell--non-numeric">
+									<tr>
+										<th class="mdl-data-table__cell--non-numeric">Shortcut</th>
+										<th class="mdl-data-table__cell--non-numeric">Result</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric"><code>Alt-Shift-F</code></td>
+										<td class="mdl-data-table__cell--non-numeric">Format Code</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric"><code>F9</code></td>
+										<td class="mdl-data-table__cell--non-numeric">Compile package/file</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-/</code></td>
+										<td class="mdl-data-table__cell--non-numeric">Comment/un-comment</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-E</code></td>
+										<td class="mdl-data-table__cell--non-numeric">Delete current line</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric"><code>Ctrl-Alt-I</code></td>
+										<td class="mdl-data-table__cell--non-numeric">Fix all class imports</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- end of six cells -->
+						<div class="mdl-cell mdl-cell--6-col">
+							<div class="mdl-layout-title">Code Templates in NetBeans</div>
+							<hr>
+							<p>
+								NetBeans also has "code templates," which are short lines that automatically expand to longer structures and code.
+							</p>
+							<table class="mdl-data-table mdl-js-data-table">
+								<thead class="mdl-data-table__cell--non-numeric">
+									<tr>
+										<th class="mdl-data-table__cell--non-numeric">Template</th>
+										<th class="mdl-data-table__cell--non-numeric">Result</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">sout</td>
+										<td class="mdl-data-table__cell--non-numeric"><code>System.out.println("");</code></td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">fori</td>
+										<td class="mdl-data-table__cell--non-numeric"><code>for (int i = 0; i < arr.length; i++) {}</code></td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">iff</td>
+										<td class="mdl-data-table__cell--non-numeric"><code>if(exp) {}</code></td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">pu</td>
+										<td class="mdl-data-table__cell--non-numeric"><code>public</code></td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">re</td>
+										<td class="mdl-data-table__cell--non-numeric"><code>return</code></td>
+									</tr>
+							</table>
+						</div>
+						<!-- end of six cells -->
+						<div class="mdl-cell mdl-cell--12-col">
+							<div class="mdl-layout-title">Additional Shortcuts and Code Templates</div>
+							<hr>
+							<ul class="mdl-list">
+								<li class="mdl-list__item">
+									<span class="mdl-list__item-primary-content">
 											<i class="material-icons mdl-list__item-icon">link</i>
 											<a href="https://netbeans.org/project_downloads/usersguide/shortcuts-80.pdf">Offical Shortcuts</a>
 										</span>
-									</li>
-									<li class="mdl-list__item">
-										<span class="mdl-list__item-primary-content">
+								</li>
+								<li class="mdl-list__item">
+									<span class="mdl-list__item-primary-content">
 											<i class="material-icons mdl-list__item-icon">link</i>
 											<a href="https://shortcutworld.com/en/NetBeans/8/win/all">Shortcutworld.com's List</a>
 										</span>
-									</li>
-								</ul>
-							</div>
-							<!-- end of twelve columns -->
+								</li>
+							</ul>
 						</div>
-						<!-- end of grid -->
+						<!-- end of twelve columns -->
 					</div>
-		    </section>
-				<section class="mdl-layout__tab-panel" id="fixed-tab-5">
-		      <div class="page-content">
-						<!-- Popular plugins for NetBeans -->
-						<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--4-col">
-								<div class="mdl-layout-title">Plugins in NetBeans</div>
-								<hr>
-								<p>
-									Plugins are used to extend NetBeans' functionality and interface. They may add new color themes, tools, or support for more types of files.
-								</p>
-							</div>
-							<div class="mdl-cell mdl-cell--8-col">
-								<div class="mdl-layout-title">Popular plugins for NetBeans</div>
-								<hr>
-								<ul class="mdl-list">
-									<li class="mdl-list__item mdl-list__item--three-line">
-										<span class="mdl-list__item-primary-content">
+					<!-- end of grid -->
+				</div>
+			</section>
+			<section class="mdl-layout__tab-panel" id="fixed-tab-5">
+				<div class="page-content">
+					<!-- Popular plugins for NetBeans -->
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--4-col">
+							<div class="mdl-layout-title">Plugins in NetBeans</div>
+							<hr>
+							<p>
+								Plugins are used to extend NetBeans' functionality and interface. They may add new color themes, tools, or support for more types of files.
+							</p>
+						</div>
+						<div class="mdl-cell mdl-cell--8-col">
+							<div class="mdl-layout-title">Popular plugins for NetBeans</div>
+							<hr>
+							<ul class="mdl-list">
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
 											<i class="material-icons mdl-list__item-icon">extension</i>
 											<span><a href="http://plugins.netbeans.org/plugin/62424/darcula-laf-for-netbeans">Darcula LAF</a></span>
-											<span class="mdl-list__item-text-body">
+									<span class="mdl-list__item-text-body">
 												Darcula LAF is a Look-and-Feel theme plugin coming from the IntelliJ IDEA theme
 											</span>
-										</span>
-									</li>
-									<li class="mdl-list__item  mdl-list__item--three-line">
-										<span class="mdl-list__item-primary-content">
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
 											<i class="material-icons mdl-list__item-icon">extension</i>
 											<span><a href="">JS CSS Minify Compress</a></span>
-											<span class="mdl-list__item-text-body">
+									<span class="mdl-list__item-text-body">
 												This plugin minifies and compresses JavaScript, CSS and HTML to decrease page load times.
 											</span>
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-icon">extension</i>
+										<span><a href="http://plugins.netbeans.org/plugin/40893/jslint">JSLint</a></span>
+										<span class="mdl-list__item-text-body">
+											JSLint is a well-know code-quality tool and website, used to find bugs and typos in JavaScript.
 										</span>
-									</li>
-									<li class="mdl-list__item  mdl-list__item--three-line">
-										<span class="mdl-list__item-primary-content">
-											<i class="material-icons mdl-list__item-icon">extension</i>
-											<span><a href="http://plugins.netbeans.org/plugin/40893/jslint">JSLint</a></span>
-											<span class="mdl-list__item-text-body">
-												JSLint is a well-know code-quality tool and website, used to find bugs and typos in JavaScript.
-											</span>
-										</span>
-									</li>
-                                    <li class="mdl-list__item  mdl-list__item--three-line">
-                                    	<span class="mdl-list__item-primary-content">
-                                        	<i class="material-icons mdl-list__item-icon">extension</i>
-                                            <span><a href="http://plugins.netbeans.org/plugin/40985/ez-on-da-ice">ez-on-da-ice</a></span>
-                                            <span class="mdl-list__item-text-body">
-                                            	This plugin allows you to create an easy for the eyes look and feel of the NetBeans IDE by changing the colors.
-                                            </span>>
-                                         </span>
-                                    </li>
-									  <li class="mdl-list__item  mdl-list__item--three-line">
-                                    	<span class="mdl-list__item-primary-content">
-                                        	<i class="material-icons mdl-list__item-icon">extension</i>
-                                            <span><a href="http://plugins.netbeans.org/plugin/47589/additional-java-hints">Additional Java Hints</a></span>
-                                            <span class="mdl-list__item-text-body">
-                                            	As the name suggests Additional Java Hints provides additional hints that allows you to write better quality code and points out any potential issues.                                            </span>
-                                         </span>
-                                    </li>
-                                     <li class="mdl-list__item  mdl-list__item--three-line">
-                                    	<span class="mdl-list__item-primary-content">
-                                        	<i class="material-icons mdl-list__item-icon">extension</i>
-                                            <span><a href="http://plugins.netbeans.org/plugin/57270/easypmd">EasyPMD</a></span>
-                                            <span class="mdl-list__item-text-body">
-                                            	EasyPMD is a code analyzer that scans Java source code looking for over 400 potential problems.                                            
-                                                </span>
-                                         </span>
-                                    </li>
-                                    <li class="mdl-list__item  mdl-list__item--three-line">
-                                    	<span class="mdl-list__item-primary-content">
-                                        	<i class="material-icons mdl-list__item-icon">extension</i>
-                                            <span><a href="http://plugins.netbeans.org/plugin/55435/easyuml">easyUML</a></span>
-                                            <span class="mdl-list__item-text-body">
-                                            	“easyUML is a UML diagram tool currently supporting only class diagrams providing drag-and-drop visual editor, Java code generation from diagrams and ‘reverse engineering’ to create class diagrams from Java code. It is very suitable for teaching software design.”                                            
-                                                </span>
-                                         </span>
-                                    </li>
-
-
-                                        	
-                                    
-
-
-                                    
-                                    
-								</ul>
-							</div>
-							<!-- end of six columns -->
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+              		<i class="material-icons mdl-list__item-icon">extension</i>
+                  <span><a href="http://plugins.netbeans.org/plugin/40985/ez-on-da-ice">ez-on-da-ice</a></span>
+									<span class="mdl-list__item-text-body">
+                  	This plugin allows you to create an easy for the eyes look and feel of the NetBeans IDE by changing the colors.
+                  </span>>
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+                      	<i class="material-icons mdl-list__item-icon">extension</i>
+                          <span><a href="http://plugins.netbeans.org/plugin/47589/additional-java-hints">Additional Java Hints</a></span>
+									<span class="mdl-list__item-text-body">
+                          	As the name suggests Additional Java Hints provides additional hints that allows you to write better quality code and points out any potential issues.                                            </span>
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+                		<i class="material-icons mdl-list__item-icon">extension</i>
+                    	<span><a href="http://plugins.netbeans.org/plugin/57270/easypmd">EasyPMD</a></span>
+									<span class="mdl-list__item-text-body">
+                    		EasyPMD is a code analyzer that scans Java source code looking for over 400 potential problems.
+                    	</span>
+									</span>
+								</li>
+								<li class="mdl-list__item  mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+	                  	<i class="material-icons mdl-list__item-icon">extension</i>
+	                      <span><a href="http://plugins.netbeans.org/plugin/55435/easyuml">easyUML</a></span>
+									<span class="mdl-list__item-text-body">
+	                      	“easyUML is a UML diagram tool currently supporting only class diagrams providing drag-and-drop visual editor, Java code generation from diagrams and ‘reverse engineering’ to create class diagrams from Java code. It is very suitable for teaching software design.”
+	                          </span>
+									</span>
+								</li>
+							</ul>
 						</div>
-						<!-- end of grid -->
+						<!-- end of six columns -->
 					</div>
-		    </section>
-		  </main>
-		</div>
-	</body>
+					<!-- end of grid -->
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
 
 </html>
